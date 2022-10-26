@@ -41,6 +41,7 @@ button {
     font-size: 1.4rem;
     font-weight: bold;
     border: 0;
+    cursor: pointer;
 }
 
 #gp-btn {
@@ -55,7 +56,7 @@ button {
 
 #gp1, #gp2 {
     width: 48%;
-    height: 50px;
+    min-height: 50px;
     font-size: 1rem;
     background-color: var(--lighterdarkblue);
     color: white;
