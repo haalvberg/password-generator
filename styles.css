@@ -1,0 +1,94 @@
+:root {
+    --darkblue: #1F2937;
+    --lighterdarkblue: #273549;
+    --green: #4ADF86;
+}
+
+.green {
+    color: var(--green);
+}
+
+body {
+    margin: 2rem;
+    background-color: var(--darkblue);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+#line {
+    margin-top: 2rem;
+    width: auto;
+    height: 2px;
+    background-color: var(--lighterdarkblue);
+}
+
+button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: var(--darkblue);
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 0;
+}
+
+#gp-btn {
+    background-color: var(--green);
+}
+
+.generated {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#gp1, #gp2 {
+    width: 48%;
+    height: 50px;
+    font-size: 1rem;
+    background-color: var(--lighterdarkblue);
+    color: white;
+}
+
+
+.slider {
+    
+    -webkit-appearance: none;
+    width: 15rem;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
